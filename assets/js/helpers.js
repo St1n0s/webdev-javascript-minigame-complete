@@ -1,2 +1,4 @@
-
-alert('In het bestand helpers.js kunnen globale functies geplaatst worden die vanuit iedere plek in je scripts aan te roepen zijn.');
+function randomNumBetween(min, max)
+{
+    return Math.floor(Math.random() * (max - min + 1) + min); 
+}
