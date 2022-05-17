@@ -17,7 +17,7 @@ function generateMondriaanPainting(width, height)
 	const max        = 300;
 
 	context.strokeStyle = 'black';
-	context.lineWidth   = 6;
+	context.lineWidth   = 4;
 
 	for(let i=0; i<iterations; i++)
 	{
